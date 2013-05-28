@@ -1,0 +1,27 @@
+#header {
+    background: url("/images/unite.jpg") no-repeat right top transparent;
+    height: 110px;
+    margin-bottom: 30px;
+    padding: 40px 0 0;
+}
+.role {
+  width: 700px;
+}
+.rolehead {
+  background: #bbe;
+  cursor: move;
+}
+
+.principals {
+  float: left;
+  width: 340px;
+  background: #eee;
+}
+.entitlements {
+  float: right;
+  width: 340px;
+  background: #eee;
+}
+.namecard_button, .entitlementcard_button, .not_linked_principal, .invitationcard_button {
+  cursor: help;
+}

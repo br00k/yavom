@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           EntitlementPack
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          entitlement_pack
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    
+        actions:
+          _save: ~
+      edit:    
+        title: Edit entitlemen pack %%Service%%::%%name%%
+      new:     
+        title: Define new entitlement pack

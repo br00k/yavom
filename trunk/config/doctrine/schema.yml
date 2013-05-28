@@ -1,0 +1,463 @@
+Organization:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      unique: true
+      notnull: true
+    description:
+      type: text
+    default_role_id:
+      type: integer
+      notnull: false
+    created_at:
+      type: timestamp
+      notnull: true
+  relations:
+#    DefaultRole:
+#      class: Role
+#      local: default_role_id
+    Principal:
+      class: Principal
+      local: organization_id
+      foreign: principal_id
+      refClass: OrganizationPrincipal
+    Service:
+      class: Service
+      local: organization_id
+      foreign: service_id
+      refClass: OrganizationService
+
+Role:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    organization_id:
+      type: integer
+      notnull: true
+    showorder:
+      type: integer
+    description:
+      type: text
+    created_at:
+      type: timestamp
+      notnull: true
+  relations:
+    Organization:
+      class: Organization
+      local: organization_id
+      onDelete: CASCADE
+    Principal:
+      class: Principal
+      local: role_id
+      foreign: principal_id
+      refClass: RolePrincipal
+    Entitlement:
+      class: Entitlement
+      local: role_id
+      foreign: entitlement_id
+      refClass: RoleEntitlement
+  options:
+    orderBy: showorder
+
+Principal:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    fedid:
+      type: string(255)
+      unique: true
+      notnull: true
+  relations:
+    Role:
+      class: Role
+      foreign: role_id
+      local: principal_id
+      refClass: RolePrincipal
+    Organization:
+      class: Organization
+      foreign: organization_id
+      local: principal_id
+      refClass: OrganizationPrincipal
+#    User:
+#      class: sfGuardUser
+#      local: fedid
+#      foreign: username
+  options:
+    orderBy: fedid
+
+RolePrincipal:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    role_id:
+      type: integer
+      notnull: true
+    principal_id:
+      type: integer
+      notnull: true
+    expiration:
+      type: timestamp
+  relations:
+    Role:
+      class: Role
+      local: role_id
+      onDelete: CASCADE
+    Principal:
+      class: Principal
+      local: principal_id
+      onDelete: CASCADE
+
+OrganizationPrincipal:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    organization_id:
+      type: integer
+      notnull: true
+    principal_id:
+      type: integer
+      notnull: true
+  relations:
+    Organization:
+      class: Organization
+      local: organization_id
+      onDelete: CASCADE
+    Principal:
+      class: Principal
+      local: principal_id
+      onDelete: CASCADE
+
+OrganizationEntitlementPack:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    organization_id:
+      type: integer
+      notnull: true
+    entitlement_pack_id:
+      type: integer
+      notnull: true
+    status:
+      type: enum
+      values: [pending,accepted]
+      notnull: true
+    created_at:
+      type: timestamp
+      notnull: true
+    accept_at:
+      type: timestamp
+  relations:
+    Organization:
+      class: Organization
+      local: organization_id
+      onDelete: CASCADE
+    EntitlementPack:
+      class: EntitlementPack
+      local: entitlement_pack_id
+      onDelete: CASCADE
+
+Service:
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      unique: true
+    entityId:
+      type: string(255)
+    url:
+      type: string(255)
+    description:
+      type: text
+    principal_id:
+      type: integer
+      notnull: true
+    type:
+      type: enum
+      values: [pending,valid]
+      notnull: true
+    token:
+      type: text
+  relations:
+    Organization:
+      class: Organization
+      foreign: organization_id
+      local: service_id
+      refClass: OrganizationService
+    Principal:
+      class: Principal
+      local: principal_id
+
+ServicePrincipal:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    service_id:
+      type: integer
+      notnull: true
+    principal_id:
+      type: integer
+      notnull: true
+  relations:
+    Service:
+      class: Service
+      local: service_id
+      onDelete: CASCADE
+    Principal:
+      class: Principal
+      local: principal_id
+      onDelete: CASCADE
+
+OrganizationService:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    organization_id:
+      type: integer
+      notnull: true
+    service_id:
+      type: integer
+      notnull: true
+    status:
+      type: enum
+      values: [pending,accepted]
+      notnull: true
+    created_at:
+      type: timestamp
+      notnull: true
+    accept_at:
+      type: timestamp
+  relations:
+    Organization:
+      class: Organization
+      local: organization_id
+    Service:
+      class: Service
+      local: service_id
+
+Entitlement:
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+    description:
+      type: text
+    uri:
+      type: string(255)
+    service_id:
+      type: integer
+  relations:
+    Service:
+      class: Service
+      local: service_id
+      onDelete: CASCADE
+    Role:
+      class: Role
+      foreign: role_id
+      local: entitlement_id
+      refClass: RoleEntitlement
+
+RoleEntitlement:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    role_id:
+      type: integer
+      notnull: true
+    entitlement_id:
+      type: integer
+      notnull: true
+  relations:
+    Role:
+      class: Role
+      local: role_id
+      onDelete: CASCADE
+    Entitlement:
+      class: Entitlement
+      local: entitlement_id
+      onDelete: CASCADE
+
+EntitlementPack:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    service_id:
+      type: integer
+      notnull: true
+    showorder:
+      type: integer
+    description:
+      type: text
+    created_at:
+      type: timestamp
+      notnull: true
+    type:
+      type: enum
+      values: [test,hidden,browseable]
+      notnull: true
+    token:
+      type: text
+  relations:
+    Service:
+      class: Service
+      local: service_id
+      onDelete: CASCADE
+    Entitlement:
+      class: Entitlement
+      local: entitlement_pack_id
+      foreign: entitlement_id
+      refClass: EntitlementPackEntitlement
+  options:
+    orderBy: showorder
+    
+EntitlementPackEntitlement:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    entitlement_pack_id:
+      type: integer
+      notnull: true
+    entitlement_id:
+      type: integer
+      notnull: true
+  relations:
+    EntitlementPack:
+      class: EntitlementPack
+      local: entitlement_pack_id
+      onDelete: CASCADE
+    Entitlement:
+      class: Entitlement
+      local: entitlement_id
+      onDelete: CASCADE
+      
+Invitation:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    principal_id:
+      type: integer
+    inviter_id:
+      type: integer
+      notnull: true
+    email:
+      type: string(255)
+      notnull: true
+    uuid:
+      type: string(255)
+      notnull: true
+    status:
+      type: enum
+      values: [pending,accepted]
+      notnull: true
+    counter:
+      type: integer
+      notnull: true
+    created_at:
+      type: timestamp
+      notnull: true
+    accept_at:
+      type: timestamp
+    last_reinvite_at:
+      type: timestamp
+    organization_id:
+      type: integer
+      notnull: true
+    role_id:
+      type: integer
+  relations:
+    Role:
+      class: Role
+      local: role_id
+    Principal:
+      class: Principal
+      local: principal_id
+    Inviter:
+      class: Principal
+      local: inviter_id
+    Organization:
+      class: Organization
+      local: organization_id
+
+ServiceInvitation:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    principal_id:
+      type: integer
+    inviter_id:
+      type: integer
+      notnull: true
+    email:
+      type: string(255)
+      notnull: true
+    uuid:
+      type: string(255)
+      notnull: true
+    status:
+      type: enum
+      values: [pending,accepted]
+      notnull: true
+    counter:
+      type: integer
+      notnull: true
+    created_at:
+      type: timestamp
+      notnull: true
+    accept_at:
+      type: timestamp
+    last_reinvite_at:
+      type: timestamp
+    service_id:
+      type: integer
+      notnull: true
+  relations:
+    Principal:
+      class: Principal
+      local: principal_id
+    Inviter:
+      class: Principal
+      local: inviter_id
+    Service:
+      class: Service
+      local: service_id

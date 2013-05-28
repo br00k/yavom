@@ -1,0 +1,56 @@
+entitlement_pack:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                EntitlementPack
+    module:               entitlement_pack
+    prefix_path:          /:sf_culture/entitlement_pack
+    column:               id
+    with_wildcard_routes: true
+
+service:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Service
+    module:               service
+    prefix_path:          /:sf_culture/service
+    column:               id
+    with_wildcard_routes: true
+
+entitlement:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Entitlement
+    module:               entitlement
+    prefix_path:          /:sf_culture/entitlement
+    column:               id
+    with_wildcard_routes: true
+ 
+language_switch:
+  url:   /language_switch
+  param: { module: language, action: switch }
+  
+
+
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+  
+localized_homepage:
+  url:   /:sf_culture/
+  param: { module: default, action: index }
+  requirements:
+    sf_culture: (?:hu|en)
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:sf_culture/:module
+  param: { action: index }
+
+default:
+  url:   /:sf_culture/:module/:action/*
