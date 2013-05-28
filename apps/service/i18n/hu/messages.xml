@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="HU" datatype="plaintext" original="messages" date="2013-05-21T13:33:25Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Edit entitlemen pack %%Service%%::%%name%%</source>
+        <target>%%Service%%::%%name%% jogosultságcsomag szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Define new entitlement pack</source>
+        <target>Új jogosultságcsomag definiálása</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>%%Service%%::%%name%% entitlement modify</source>
+        <target>%%Service%%::%%name%% jogosultság szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Create new entitlement</source>
+        <target>Új jogosultság létrehozása</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>About the service</source>
+        <target>A szolgáltatásról</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Services</source>
+        <target>Szolgáltatások</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Share your means of production!</source>
+        <target>Oszt meg termelőeszközeidet!</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Entitlement name:</source>
+        <target>Jogosultság neve:</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Entitlement description:</source>
+        <target>Jogosultság leírása:</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>eduPersonEntitlement value:</source>
+        <target>eduPersonEntitlement értéke:</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Delete manager</source>
+        <target>Menedzser törlése</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Name</source>
+        <target>Név</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Federal ID</source>
+        <target>Föderációs azonosító</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Remove Manager</source>
+        <target>Managet törlése</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Cancel</source>
+        <target>Mégse</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Remove</source>
+        <target>Törlés</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Organization name:</source>
+        <target>Szervezet neve:</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Organization description:</source>
+        <target>Szervezet leírása:</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Service managers:</source>
+        <target>Szolgáltatás menedzserei:</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Service name:</source>
+        <target>Szolgáltatás neve:</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Entitlement pack name:</source>
+        <target>Jogosultságcsomag neve:</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Sending the secret token of the entitlement pack to given e-mail address.</source>
+        <target>A jogosultságcsomag titkos tokenjének elküldése a megadott e-mail címre.</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>The &lt;strong&gt;%org%&lt;/strong&gt; organization wishes to use your service. You must decide wether to let them, or deny their request. If you don't trust the organization, please select 'Deny request'.</source>
+        <target>A(z)&lt;strong&gt;%org%&lt;/strong&gt; nevű szervezet igénybe kívánja venni a szolgáltatást. Döntse el, hogy engedélyezi-e neki, vagy sem. Ha nem bízik a szervezetben, válassza a "Nem engedélyez" lehetőséget!</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Grant access</source>
+        <target>Engedélyez</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Deny request</source>
+        <target>Nem engedélyez</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Invitation details</source>
+        <target>Meghívás részletei</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>First invited</source>
+        <target>Első meghívás</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Times invited</source>
+        <target>Meghívások száma</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Last invited</source>
+        <target>Utoljára meghívva</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Resend invitation</source>
+        <target>Meghívó újraküldése</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Delete invitation</source>
+        <target>Meghívás törlése</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Service: &lt;strong&gt;%s%&lt;/strong&gt;</source>
+        <target>&lt;strong&gt;%s%&lt;/strong&gt; nevű szolgáltatás</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Edit service</source>
+        <target>Szolgáltatás szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Delete service</source>
+        <target>Szolgáltatás törlése</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Managers</source>
+        <target>Menedzserek</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Invitations</source>
+        <target>Meghívások</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Invite new manager</source>
+        <target>Új menedzser meghívása</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Show</source>
+        <target>Felfed</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Settings</source>
+        <target>Tulajdonságok</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>URL of the service:</source>
+        <target>A szolgáltatás URL-je</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>SAML SP entityId:</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Description:</source>
+        <target>Leírás</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Entitlements</source>
+        <target>Jogosultságok</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>New entitlement</source>
+        <target>Új jogosultság hozzáadása</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Entitlement details</source>
+        <target>Jogosultság részletei</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Update entitlement</source>
+        <target>Jogosultság szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Delete entitlement</source>
+        <target>Jogosultság törlése</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Entitlement packages</source>
+        <target>Jogosultságcsomagok</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>Defined entitlement packages</source>
+        <target>Eddig definiált jogosultságcsomagok</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Define new package</source>
+        <target>Új csomag definiálása</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>Hide</source>
+        <target>Elrejt</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Edit package</source>
+        <target>Csomag szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>Delete package</source>
+        <target>Csomag törlése</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Share type:</source>
+        <target>Megosztás típusa:</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Subscribe token:</source>
+        <target>Titkos token:</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Send secret token</source>
+        <target>Titkos token küldése</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Rearrange entitlements</source>
+        <target>Jogosultságok újraosztása</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Subscribed organizations</source>
+        <target>Feliratkozott szervezetek</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Organization details</source>
+        <target>Szervezet részletei</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Connected</source>
+        <target>Kapcsolva</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Delete connection</source>
+        <target>Kapcsolat törlése</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>Manager details</source>
+        <target>Menedzser részletei</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Hiba történt.</source>
+        <target>Error.</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Shared services</source>
+        <target>Megosztott szolgáltatások</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>In this portal you can register your service. The target is that the VOs can use your service and its entitlements.</source>
+        <target>Ezen az oldalon regisztrálhat új szolgáltatást. A cél az, hogy a VO-k használhassák a szolgáltatás jogosultságait.</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>Register your service</source>
+        <target>Regisztrálja a szolgáltatását</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>Error:</source>
+        <target>Hiba:</target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>Invite new member</source>
+        <target>Új tag meghívása</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>Dear Sir/Madam,</source>
+        <target>Tisztelt címzett!</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>Our system is a virtual organizations manager software, this e-mail is sent by our robot.</source>
+        <target>Rendszerünk egy virtuális szervezeteket kezelő szoftver. Ezt az üzenetet a meghívásokat feldolgozó robot küldte.</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>This is a reminder for you have a pending invitation.</source>
+        <target>Ez egy emlékezeztő egy korábbi meghívásra.</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>%lname%, %email% - the manager of service &lt;strong&gt;%service%&lt;/strong&gt; kindly asks you to join his service.</source>
+        <target>%lname, %email - a(z) &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás vezetője szeretné, ha csatlakozna az ő szolgáltatásához.</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>A(z) &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás leírása:</source>
+        <target>A(z) &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás leírása:</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>For further information please contact him/her personally.</source>
+        <target>További információért érdeklődjön személyesen nála.</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>You can accept the invitation - after authentication - by clicking </source>
+        <target>Meghívását - belső azonosítás után - elfogadhatja </target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>here.</source>
+        <target>ide kattintva.</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>%lname%, %email% has also sent you a private message, which is the following: </source>
+        <target>%lname%, %email% privát üzenete Önnek: </target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>Best regards,</source>
+        <target>Tisztelettel:</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Service details</source>
+        <target>Szolgáltatás részletei</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>Pending invitations</source>
+        <target>Függőben lévő meghívások</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>Resend selected invitations</source>
+        <target>Kijelölt meghívók újraküldése</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Date accepted</source>
+        <target>Elfogadva</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>Profile</source>
+        <target>Profil</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>Logout</source>
+        <target>Kilépés</target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>My services</source>
+        <target>Szolgáltatásaim</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>Edit</source>
+        <target>Szerkesztés</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>Pending organization subscription</source>
+        <target>Függőben lévő szolgáltatás</target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>hidden</source>
+        <target>rejtett</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>browseable</source>
+        <target>böngészhető</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>test</source>
+        <target>teszt</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>Service name</source>
+        <target>Szolgáltatás neve</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Service homepage</source>
+        <target>Szolgáltatás oldala</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>Service description</source>
+        <target>Szolgáltatás leírása</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>Registration type</source>
+        <target>Bejegyzés típusa</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>New Service</source>
+        <target>Új szolgáltatás</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Edit Service</source>
+        <target>Szolgáltatás szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>Description</source>
+        <target>Leírás</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>Value of the eduPersonEntitlement attribute</source>
+        <target>Az eduPersonEntitlement attribútum értéke</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>Pack name</source>
+        <target>Csomag neve</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Pack description</source>
+        <target>Csomag leírása</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Type</source>
+        <target>Típus</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Subscribing token</source>
+        <target>Titkos token</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Edit %service%::%name% entitlement</source>
+        <target>%service%::%name% nevű jogosultság szerkesztése-</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Connect entitlements</source>
+        <target>Jogok kapcsolása</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Associated entitlements</source>
+        <target>Kapcsolt jogok</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Not associated entitlements</source>
+        <target>Nem kapcsolt jogok</target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>List of email addresses, separated by comma</source>
+        <target>Email címek listája vesszővel elválasztva</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>Private message</source>
+        <target>Személyes üzenet</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>Pending</source>
+        <target>Függőben</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>&lt;strong&gt;%service%&lt;/strong&gt; service description:</source>
+        <target>&lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás leírása:</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>Accepted invitations</source>
+        <target>Elfogadott meghívások</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>Accept organization</source>
+        <target>Szervezet kapcsolása</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>Withdraw entitlement pack</source>
+        <target>Jogosultságcsomag visszavonása</target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>Create new entitlement package</source>
+        <target>Új jogosultságcsomag létrehozása</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Rearrange packages</source>
+        <target>Csomagok átrendezése</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Package details</source>
+        <target>Jogosultságcsomag részletei</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>You are about to permanently delete entitlement &lt;strong&gt;%entitlement%&lt;/strong&gt;! If you delete it, the entitlement will be removed from any connected organizations. This is the last warning!</source>
+        <target>A(z) <strong>%entitlement%</strong> nevű jogosultság törlésére készül!!! Ha törli, megszűnnek azok a jogok, amiket már egy-egy kapcsolódó szervezet kiosztott tagjainak. Nagyon fontolja meg, hogy mire kattint, ez az utolsó figyelmeztetés!</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>If you are sure, type 'Yes, do as I say!'</source>
+        <target>Ha valóban törli, gépelje be, hogy "Igen, tedd, amit mondok!" (idézőjelek nélkül, pontosan.)</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>Yes, do as I say!</source>
+        <target>Igen, tedd, amit mondok!</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>The entitlement has not been deleted.</source>
+        <target>A jogosultságot nem töröltük, mert nem akarta igazán.</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>The entitlement has been deleted successfully.</source>
+        <target>A jogosultságot sikeresen töröltük.</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>You are about to permanently delete entitlement pack &lt;strong&gt;%entitlementpack%&lt;/strong&gt;! If you delete it, the entitlements in the package will no longer be available to any connected organizations. This is the last warning!</source>
+        <target>A(z) <strong>%entitlementpack%</strong> nevű jogosultságcsomag törlésére készül!!! Ha törli, megszűnnek azok a jogok, amiket már egy-egy kapcsolódó szervezet kiosztott tagjainak. Nagyon fontolja meg, hogy mire kattint, ez az utolsó figyelmeztetés!</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>You are about to permanently delete service &lt;strong&gt;%service%&lt;/strong&gt;! If you delete it, the service will be removed from any connected organizations. This is the last warning!</source>
+        <target>A(z) <strong>%service%</strong> nevű szolgáltatás törlésére készül!!! Ha törli, megszűnnek azok a jogok, amiket már egy-egy kapcsolódó szervezet kiosztott tagjainak. Nagyon fontolja meg, hogy mire kattint, ez az utolsó figyelmeztetés!</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>The service has not been deleted.</source>
+        <target>'A szolgáltatást nem töröltük, mert nem akarta igazán.'</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>The service has been deleted successfully.</source>
+        <target>A szolgáltatást sikeresen töröltük.</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>The entitlement pack has not been deleted.</source>
+        <target>'A jogosultságcsomagot nem töröltük, mert nem akarta igazán.'</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>The entitlement pack has been deleted successfully.</source>
+        <target>A jogosultságcsomagot sikeresen töröltük</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>The entitlement has been created.</source>
+        <target>A jogosultságot sikeresen létrehoztuk.</target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>The entitlement has been updated</source>
+        <target>A jogosultságot sikeresen frissítettük.</target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>You have no rights to access this organization.</source>
+        <target>Nincs köze ehhez a szervezethez.</target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>The entitlement package has been created.</source>
+        <target>A jogosultságcsomagot sikeresen létrehoztuk.</target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>The entitlement package has been updated.</source>
+        <target>A jogosultságcsomagot sikeresen frissítettük.</target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>Couldn't find the requested service: id=%id%</source>
+        <target>Nincs ilyen szolgáltatás, mint ami kérve lett: id=%id%</target>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>Only managers can invite new members.</source>
+        <target>Nem küldhet meghívót olyan szolgáltatás nevében, aminek nem menedzsere.</target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>Could not send the invitation, please check the e-mail address and try again!</source>
+        <target>A meghívás nem sikerült, valószínűleg az email címek formátumában van a hiba. Próbálja meg mégegyszer!</target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>Invitation to %service% service</source>
+        <target>Meghívás a(z) %service% szolgáltatásba.</target>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>The invitation has been sent.</source>
+        <target>A meghívót sikeresen elküldtük.</target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>Can't find the requested invitation</source>
+        <target>Nincs ilyen meghívó.</target>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>The invitation is no longer pending: %status%</source>
+        <target>A meghívás már nincs függőben: %status%</target>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>You are already a member of this organization. The invitation has lost its purpose, so we have deleted it.</source>
+        <target>Ön már tagja ennek a szervezetnek. A meghívás értelmét vesztette, ezért töröltük.</target>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>%lname% has accepted the invitation to %service%</source>
+        <target>%lname% elfogadta a meghívást a(z) %service% szolgáltatásba.</target>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>You have been successfully added to %service% service.</source>
+        <target>Sikeresen felvettük a(z) %service% szolgáltatásba!</target>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>Insufficent rights</source>
+        <target>Nincs joga ehhez.</target>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>Reminder about invitation to %service% service.</source>
+        <target>Emlékeztető függőben lévő meghívóról a(z) %service% szolgáltatásba.</target>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>We have resent the invitation.</source>
+        <target>A meghívót újra elküldtük.</target>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>Invitation deleted.</source>
+        <target>A meghívó törölve.</target>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>Service subsrciption request accepted</source>
+        <target>Szolgáltatás feliratkozási kérés elfogadva</target>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>Accepted</source>
+        <target>Elfogadva</target>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>Denied</source>
+        <target>Megtagadva</target>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>Service subsrciption request denied</source>
+        <target>Szolgáltatási feliratkozási kérés megtagadva</target>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>The entitlement package has not been deleted.</source>
+        <target>A jogosultságcsomagot nem vontuk vissza, mert nem akarta igazán.</target>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>The entitlement pack has been deleted.</source>
+        <target>A jogosultságcsomagot sikeresen visszavontuk.</target>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>The service has been created.</source>
+        <target>A szolgáltatást sikeresen létrehoztuk.</target>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>The service has been updated.</source>
+        <target>A szolgáltatást sikeresen frissítettük</target>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>Secret token for %ep% entitlement pack</source>
+        <target>Titkos token a(z) %ep% jogosultságcsomaghoz</target>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>Secret token sent.</source>
+        <target>A titkos token elküldve.</target>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>No such manager/service pair!</source>
+        <target>Nem létező menedzser/szolgáltatás páros!</target>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>You can't delete the last manager!</source>
+        <target>Nem törölheti az utolsó menedzsert!</target>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>Manager deleted.</source>
+        <target>Menedzser törölve.</target>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>Send</source>
+        <target>Elküldés</target>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>This service is invalid yet. Please validate the owner!</source>
+        <target>A szolgáltatás jelenleg érvénytelen. Kérem validálja a tulajdonost!</target>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>Click here to validate!</source>
+        <target>Kattintson ide az érvényesítéshez</target>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>Validating code to %service% service.</source>
+        <target>Ellenőrző kód a %service% szolgáltatáshoz.</target>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>The validation code is sent, please check your e-mails!</source>
+        <target>Az ellenőrző kódot elküldtük, nézze meg az e-mailjeit!</target>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>The service id is invalid!</source>
+        <target>Ez a szolgáltatás azonosító érvénytelen!</target>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>The service ownership is already validated.</source>
+        <target>A szolgáltatás már validálva lett.</target>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>The service ownership is validated now.</source>
+        <target>A szolgáltatás mostantól érvényes.</target>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>%lname%, %email% - the manager of service &lt;strong&gt;%service%&lt;/strong&gt; kindly asks you to validate the service ownership</source>
+        <target>%lname%, %email% - a &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás menedzsere kéri, hogy validálja a szolgáltatása tulajdonosát.</target>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>You can do the ownership validation - after authentication - by clicking </source>
+        <target>Szolgáltatásának hitelesítését - autentikáció után - megteheti </target>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>Sending validator token</source>
+        <target>Ellenőrző token küldése</target>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>A manager of service &lt;strong&gt;%service%&lt;/strong&gt; has accepted your subscription for his/her service's entitlement pack &lt;strong&gt;%ep%&lt;/strong&gt;. Your organization can now access the entitlements provided by the service. &lt;br&gt; You may now associate the new entitlements to your roles.</source>
+        <target>A(z) &lt;strong&gt;%service%&lt;/strong&gt; egyik menedzsere elfogadta a feliratkozási kérelmét a(z) &lt;strong&gt;%ep%&lt;/strong&gt; jogosultságcsomagra. Mostantól elérhetőek a csomagban lévő jogosultságok a szervezete számára.&lt;br&gt;A használathoz rendelje az új jogosultságokat a szervezet szerepköreihez!</target>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>A manager of service &lt;strong&gt;%service%&lt;/strong&gt; has denied your subscription for his/her service. </source>
+        <target>A(z) &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás egyik menedzsere visszautasította a feliratkozási kérelmét.</target>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>%lname%, %email% - the manager of service &lt;strong&gt;%service%&lt;/strong&gt; has sent you the sercet token of his/her service's entitlement pack &lt;strong&gt;%ep%&lt;/strong&gt;. &lt;br&gt;Using this token, you can subscribe your organization to the entitlements of the said package.</source>
+        <target>%lname%, %email% - a(z) &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás menedzsere elküldte Önnek a(z) &lt;strong&gt;%ep%&lt;/strong&gt; jogosultságcsomaghoz tartozó titkos tokent, amellyel feliratkozhat a jogosultságcsomagra.</target>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>The token:</source>
+        <target>A token:</target>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>You may redeem your token at your organization's maganement page, under 'Subscribed service entitlements'.</source>
+        <target>A tokent beválthatja a szervezet oldalán, a 'Csatolt szolgáltatások' pont alatt.</target>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>You are already a member of this service. The invitation has lost its purpose, so we have deleted it.</source>
+        <target>Ön már tagja ennek a szolgáltatásnak, így a meghívó értelmét veszítette, ezért töröltük.</target>
+      </trans-unit>
+      <trans-unit id="178">
+        <source>Invitation to service %service% deleted</source>
+        <target>Egy, a(z) %service% szolgáltatásba szóló meghívót töröltek.</target>
+      </trans-unit>
+      <trans-unit id="179">
+        <source>A manager of service &lt;strong&gt;%service%&lt;/strong&gt; has deleted the invitation for %email%</source>
+        <target>A(z) &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás egyik menedzsere törölte &lt;strong&gt;%email%&lt;/strong&gt; meghívását.</target>
+      </trans-unit>
+      <trans-unit id="180">
+        <source>%lname%, %email% - the manager of service &lt;strong&gt;%service%&lt;/strong&gt; kindly asks you to join his service</source>
+        <target>%lname%, %email% - a(z) &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás menedzsere meghívta Önt, hogy legyen a szolgáltatás menedzsere.</target>
+      </trans-unit>
+      <trans-unit id="181">
+        <source>&lt;strong&gt;%service%&lt;/strong&gt; description:</source>
+        <target>&lt;strong&gt;%service%&lt;/strong&gt; leírása:</target>
+      </trans-unit>
+      <trans-unit id="182">
+        <source>%lname%, %email% has accepted the invitation to &lt;strong&gt;%service%&lt;/strong&gt; service.</source>
+        <target>%lname%, %email% elfogadta a meghívást a(z) &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatásba.</target>
+      </trans-unit>
+      <trans-unit id="183">
+        <source>Entitlement pack %ep% has been deleted from service %service%</source>
+        <target>A(z) %ep nevű jogosultságcsomag törlésre került a(z) %service% szolgáltatásból</target>
+      </trans-unit>
+      <trans-unit id="184">
+        <source>A manager of service &lt;strong&gt;%service%&lt;/strong&gt; has deleted his/her service's entitlement pack &lt;strong&gt;%ep%&lt;/strong&gt;.</source>
+        <target>A(z) &lt;strong&gt;%service%&lt;/strong&gt; szolgáltatás egy menedzsere törölte a(z) &lt;strong&gt;%ep%&lt;/strong&gt; nevű jogosultságcsomagot.</target>
+      </trans-unit>
+      <trans-unit id="185">
+        <source>For further information please contact the service managers.</source>
+        <target>További információért keresse a szolgáltatás menedzsereit.</target>
+      </trans-unit>
+      <trans-unit id="186">
+        <source>An error occured: %message%</source>
+	<target>Hiba történt: %message%</target>
+      </trans-unit>
+      <trans-unit id="187">
+        <source>Your service named &lt;strong&gt;%service%&lt;/strong&gt; has successfully validated.</source>
+	<target>&lt;strong&gt;%service%&lt;/strong&gt; nevű szervezetét érvényesítették</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

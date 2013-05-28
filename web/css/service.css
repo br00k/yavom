@@ -1,0 +1,45 @@
+#header {
+    background: url("/images/service.jpg") no-repeat right top transparent;
+    height: 110px;
+    margin-bottom: 30px;
+    padding: 40px 0 0;
+}
+
+.bluehead {
+  background: #bbe;
+}
+
+.entitlements {
+  float: left;
+  width: 340px;
+  background: #eee;
+}
+
+.allentitlements {
+  float: left;
+  width: 700px;
+  background: #eee;
+}
+
+.organizations {
+  float: right;
+  width: 340px;
+  background: #eee;
+}
+
+.service {
+  width: 700px;
+}
+
+.entitlementpacks {
+/*  background: #eee;*/
+}
+
+.entitlementpackhead {
+  background: #bbe;
+  cursor: move;
+}
+
+.organizationcard_button, .namecard_button, .entitlementcard_button, .entitlementpackcard_button, .not_linked_principal, .invitationcard_button {
+  cursor: help;
+}

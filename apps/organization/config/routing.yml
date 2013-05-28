@@ -1,0 +1,31 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+language_switch:
+  url:   /language_switch
+  param: { module: language, action: switch }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+default_loggedout:
+  url:   /:sf_culture/default/loggedout
+  param: { module: default, action: loggedout }
+
+# generic rules
+# please, remove them by adding more specific rules
+localized_homepage:
+  url:   /:sf_culture/
+  param: { module: default, action: index }
+  requirements:
+    sf_culture: (?:hu|en)
+
+default_index:
+  url:   /:sf_culture/:module
+  param: { action: index }
+
+default:
+  url:   /:sf_culture/:module/:action/*
+

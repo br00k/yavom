@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="HU" datatype="plaintext" original="messages" date="2013-05-21T13:30:42Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Virtual organizations</source>
+        <target>Virtuális szervezetek</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Unite!</source>
+        <target>Egyesüljetek!</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Profile</source>
+        <target>Profil</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>My entitlements</source>
+        <target>Jogosultságaim</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Logout</source>
+        <target>Kijelentkezés</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>My Organizations</source>
+        <target>Szervezeteim</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Participants</source>
+        <target>Tagok</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Subscribed services</source>
+        <target>Kapcsolt szolgáltatások</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Manage organization</source>
+        <target>Szervezet beállításai</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Pending service subscribtions</source>
+        <target>Függőben lévő feliratkozások</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Show organization</source>
+        <target>Szervezet részletei</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>The organization has only one member. Invite some more!</source>
+        <target>A szervezetnek még csak egy tagja van. Hívjon meg több embert!</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>The organization has no roles. Define at least one!</source>
+        <target>A szervezetben nincsenek szerepkörök. Definiáljon legalább egyet!</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>There are no connected services. Subsrcibe to one!</source>
+        <target>Nincsenek kapcsolt szolgáltatások. Iratkozzon fel!</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>The role '%rname%' has no entitlements. Connect some!</source>
+        <target>A(z) %rname% nevű szerepkörhöz nincs egyetlen jogosultság sem rendelve. Rendeljen hozzá!</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>The role '%rname%' has no members. Connect some!</source>
+        <target>A(z) %rname% nevű szerepkörben nincsenek tagok. Rendeljen hozzá embereket!</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Organization: &lt;strong&gt;%o%&lt;/strong&gt;</source>
+        <target>Szervezet: &lt;strong&gt;%o%&lt;/strong&gt;</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>About the organization</source>
+        <target>A szervezetről</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>The leaders</source>
+        <target>Vezetők</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>The participants</source>
+        <target>Tagok</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Subscribed service entitlements</source>
+        <target>Csatolt szolgáltatások</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Roles</source>
+        <target>Szerepkörök</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Defined roles in the organization.</source>
+        <target>A szolgáltatásban definiált szerepkörök</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Role members</source>
+        <target>Tagok</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Entitlements</source>
+        <target>Jogosultságok</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Error.</source>
+        <target>Hiba történt.</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>
+&lt;p&gt;
+What is Virtual Organization?
+&lt;/p&gt;
+&lt;p&gt;
+Virtual Organization is a dynamic set of individuals or institutions defined around a set of resource-sharing rules and conditions.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you dont have any Virtual Organization, you can create here: 
+&lt;/p&gt;
+</source>
+        <target>
+&lt;p&gt;
+Mi is az a virtuális szervezet?
+&lt;/p&gt;
+&lt;p&gt;
+Egy virtuális szervezet egyének vagy intézmények dinamikus halmaza, amelyek erőforrásaik megosztásának és használatának szabályai szerint csoportosulnak. 
+&lt;/p&gt;
+
+&lt;p&gt;
+Ha még nincs virtuális szervezete, itt létrehozhat egyet:
+&lt;/p&gt;
+</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Create new organization</source>
+        <target>Új szervezet létrehozása</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Create organization</source>
+        <target>Szervezet létrehozása</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Delete organization named: %name%</source>
+        <target>A(z) %name nevű szervezet törlése</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Cancel</source>
+        <target>Mégse</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Logout successful</source>
+        <target>Sikeres kijelentkezés</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>There are no hints, This organization probably operates well. Congrats!</source>
+        <target>Nincs tippem a szervezethez, valószínűleg nagyon jól működik! Gratulálok!</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Hint</source>
+        <target>Tipp</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Edit organization preferences</source>
+        <target>A szervezet szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Hints</source>
+        <target>Tippek</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Entitlement details</source>
+        <target>Jogosultság részletei</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Edit organization</source>
+        <target>Szervezet szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Entitlements grouped by organizations</source>
+        <target>Jogosultságok szolgáltatások szerint csoportosítva</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Secret token for subscription of the organization</source>
+        <target>Szolgáltatás feliratkozásához kapott titkos token</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>Service details</source>
+        <target>Szolgáltatás részletei</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Update members</source>
+        <target>Szereplők újraosztása</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Invite new member</source>
+        <target>Új tag meghívása</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Hide</source>
+        <target>Elrejt</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Show</source>
+        <target>Felfed</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>User is not in any role</source>
+        <target>Nincs egyetlen szerepkörben sem!</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Connect new service</source>
+        <target>Új szolgáltatás csatolása</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Define new role</source>
+        <target>Új szerepkör definiálása</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>Default role</source>
+        <target>Alap szerepkör</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Edit role</source>
+        <target>Szerepkör szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>Delete role</source>
+        <target>Szerepkör törlése</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Redefine entitlements</source>
+        <target>Jogosultságok újraosztása</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>New order of roles is stored.</source>
+        <target>A szerepkörök új sorrendje eltárolva.</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Warning! The &lt;strong&gt;federal ID&lt;/strong&gt; of the participant has been entered manually and without checking, this may cause some problems!</source>
+        <target>Figyelmeztetés! A felhasználó &lt;strong&gt;föderált azonosítója&lt;/strong&gt; kézzel, ellenőrzés nélkül lett megadva, ez okozhat problémákat.</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Connect entitlements</source>
+        <target>Jogok kapcsolása</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Associated entitlements</source>
+        <target>Kapcsolt jogok</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Not associated entitlements</source>
+        <target>Nem kapcsolt jogok</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Edit %organization%::%rname% role</source>
+        <target>%organization%::%rname% szerepkör szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>List of email addresses, separated by comma</source>
+        <target>Email címek listája vesszővel elválasztva</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Private message</source>
+        <target>Személyes üzenet</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Update %organization%::%rname% role members</source>
+        <target>%organization%::%rname% szerepkör tagjainak frissítése</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>Edit %organization% managers</source>
+        <target>%organization% menedzsereinek szerkesztése</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Error:</source>
+        <target>Hiba történt:</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Dear Sir/Madam,</source>
+        <target>Tisztelt címzett!</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>Our system is a virtual organizations manager software, this e-mail is sent by our robot.</source>
+        <target>Rendszerünk egy virtuális szervezeteket kezelő szoftver. Ezt az üzenetet a meghívásokat feldolgozó robot küldte.</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>This is a reminder for you have a pending invitation.</source>
+        <target>Ez egy emlékezeztő egy korábbi meghívásra.</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>%lname%, %email% - the manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; kindly asks you to join his organization, to the role %rname%</source>
+        <target>%lname%, %email% - a(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet menedzsere meghítva Önt szervezetének %rname% nevű szerepkörébe.</target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>&lt;strong&gt;%organization%&lt;/strong&gt; organization description:</source>
+        <target>A(z) &lt;strong&gt;%organization%&lt;/strong&gt; nevű szervezet leírása:</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>&lt;strong&gt;%role%&lt;/strong&gt; role description:</source>
+        <target>A(z) &lt;strong&gt;%role%&lt;/strong&gt; nevű szerepkör leírása:</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>For further information please contact him personally.</source>
+        <target>További információért érdeklődjön személyesen nála.</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>You can accept the invitation - after authentication - by clicking </source>
+        <target>Meghívását - belső azonosítás után - </target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>here.</source>
+        <target>itt fogadhatja el.</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>%lname%, %email% has also sent you a private message, which is the following: </source>
+        <target>%lname%, %email% privát üzenete Önnek: </target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>Best regards,</source>
+        <target>Tisztelettel:</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>%lname%, %email% has accepted the invitation to &lt;strong&gt;%organization%::%role%&lt;/strong&gt; role.</source>
+        <target>%lname%, %email% elfogadta a meghívást a(z) &lt;strong&gt;%organization%::%role%&lt;/strong&gt; szerepkörbe.</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>Organization details</source>
+        <target>Szervezet leírása</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>Pending invitations</source>
+        <target>Függőben lévő meghívások</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>Resend selected invitations</source>
+        <target>Kijelölt meghívók újraküldése</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Resend invitation</source>
+        <target>Meghívó újraküldése</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>Delete invitation</source>
+        <target>Meghívó törlése</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>Accepted invitations</source>
+        <target>Elfogadott meghívások</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Date accepted</source>
+        <target>Elfogadva</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>You are about to permanently delete organization &lt;strong&gt;%organization%&lt;/strong&gt;! If you delete it, any connected roles will be deleted, entitlement links will be lost. This is the last warning!</source>
+        <target>A &lt;strong&gt;%organization%&lt;/strong&gt; nevű szervezet törlésére készül! Ha törli, ezzel együtt törtlődnek a tagok és jogosultások, szerepkörök kapcsolásai is. Nagyon fontolja meg, hogy mire kattint, ez az utolsó figyelmeztetés!</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>If you are sure, type 'Yes, do as I say!'</source>
+        <target>Ha valóban törli, gépelje be, hogy "Igen, tedd amit mondok!" (idézőjelek nélkül, nagy kezdőbetűvel)</target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>Delete organization</source>
+        <target>Szervezet törlése</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>Service name:</source>
+        <target>Szolgáltatás neve:</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>Service homepage:</source>
+        <target>Szolgáltatás főoldala:</target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>Entitlement name:</source>
+        <target>Jogosultság neve:</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>Entitlement description:</source>
+        <target>Jogosultság leírása:</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>Connected</source>
+        <target>Kapcsolva</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>Unlink</source>
+        <target>Kapcsolás megszüntetése</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Pending</source>
+        <target>Függőben</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>Open</source>
+        <target>Megnyitás</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>Service homepage:</source>
+        <target>Szolgáltatás főoldala:</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>Entitlement pack name:</source>
+        <target>Jogosultságcsomag neve:</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Entitlement pack description</source>
+        <target>Jogosultságcsomag leírása</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>Withdraw entitlement package from organization</source>
+        <target>Jogosultságcsomag visszavonása a szervezettől</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>Create new role</source>
+        <target>Új szerepkör létrehozása</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>Role rearrangement</source>
+        <target>Szerepkörök átrendezése</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Unlinked principal</source>
+        <target>Bizonytalan felhasználó</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Principal details</source>
+        <target>Felhasználó adatai</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Entitlement pack details</source>
+        <target>Jogosultságcsomag részletei</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Invitation details</source>
+        <target>Meghívás részletei</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Delete %rname% role</source>
+        <target>%rname% szerepkör törlése</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Delete</source>
+        <target>Törlés</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Update %rname% role</source>
+        <target>%rname szerepkör frissítése</target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>Role:</source>
+        <target>Szerepkör:</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>First invited:</source>
+        <target>Első megkeresés:</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>Times invited:</source>
+        <target>Megkeresések száma:</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Last invited:</source>
+        <target>Utolsó megkeresés:</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>You are about to unlink entitlement package &lt;strong&gt;%entitlementpack%&lt;/strong&gt; from organization &lt;strong&gt;%organization%&lt;/strong&gt;! If you do so the entitlements in the package will become unavailable for the organization. This is the last warning!</source>
+        <target>A(z) &lt;strong&gt;%entitlementpack%&lt;/strong&gt; nevű jogosultságcsomag és a(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet kapcsolásának bontására készül! Ha bontja a kapcsolást, a csomagban lévő jogosultságok elérhetetlenné válnak a szervezet számára. Nagyon fontolja meg, hogy mire kattint, ez az utolsó figyelmeztetés!</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>Name:</source>
+        <target>Név:</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>Federal ID:</source>
+        <target>Föderált azonosító:</target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>Expel principal</source>
+        <target>Résztvevő kizárása</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Organization name:</source>
+        <target>Szervezet neve:</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Role neve:</source>
+        <target>Szerepkör neve:</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>Organization description</source>
+        <target>Szervezet leírása, céljai</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Organization name</source>
+        <target>Szervezet neve</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>Default role name</source>
+        <target>Általános szerepkör neve</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>Role</source>
+        <target>Szerepkör</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>Organization  managers</source>
+        <target>Szervezet menedzserek</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>Associated managers</source>
+        <target>Kapcsolt menedzserek</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>Non-associated managers</source>
+        <target>Nem kapcsolt menedzserek</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>Subscribe to a service</source>
+        <target>Feliratkozás szolgáltatásra</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>Role name</source>
+        <target>Szerepkör neve</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>Role description</source>
+        <target>Szerepkör leírása</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>Connect members</source>
+        <target>Tagok kapcsolása</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>Associated members</source>
+        <target>Kapcsolt tagok</target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>Non-associated members</source>
+        <target>Nem kapcsolt tagok</target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>You are about to remove &lt;strong&gt;%rname%&lt;/strong&gt; role. If you do so, the connections between the members and their entitlements will be lost.</source>
+        <target>A &lt;strong&gt;%rname%&lt;/strong&gt; nevű szerepkör törlésére készül. Ha folytatja, elvesznek a tagok és jogosultságaik közötti kapcsolások. Biztos, hogy törölni szeretné?</target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>You have no rights to access this organization.</source>
+        <target>Nincs köze ehhez a szervezethez.</target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>Yes, do as I say!</source>
+        <target>Igen, tedd, amit mondok!</target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>The entitlement pack has not been unlinked.</source>
+        <target>A jogosultságcsomagot nem vontuk vissza, mert nem akarta igazán.</target>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>The entitlement pack has been successfully unlinked</source>
+        <target>A kapcsolat törölve.</target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>Couldn't find the requested organization: id=%id%</source>
+        <target>Nincs ilyen szervezet, mint ami kérve lett: id=%id%</target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>Only managers can invite new members.</source>
+        <target>Nem küldhet meghívót olyan szervezet nevében, aminek nem menedzsere.</target>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>Could not send the invitation, please check the e-mail address and try again!</source>
+        <target>A meghívás nem sikerült, valószínűleg az email címek formátumában van a hiba. Próbálja meg mégegyszer!</target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>The invitation has been sent.</source>
+        <target>A meghívót sikeresen feladtuk a címzetteknek.</target>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>Can't find the requested invitation</source>
+        <target>Nincs ilyen meghívó.</target>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>The invitation is no longer pending: %status%</source>
+        <target>A meghívás már nincs függőben: %status%</target>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>You are already a member of this organization. The invitation has lost its purpose, so we have deleted it.</source>
+        <target>Ön már tagja ennek a szervezetnek. A meghívás értelmét vesztette, ezért töröltük.</target>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>%lname% has accepted the invitation to %organization%</source>
+        <target>%lname% elfogadta a meghívást a(z) %organization% szervezetbe.</target>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>You have been successfully added to %organization% organization.</source>
+        <target>Sikeresen felvettük a(z) %organization% szervezetbe!</target>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>Insufficent rights</source>
+        <target>Nincs joga ehhez.</target>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>Reminder about invitation to %organization% organization.</source>
+        <target>Emlékeztető függőben lévő meghívóról a(z) %organization% szervezetbe</target>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>We have resent the invitation.</source>
+        <target>A meghívót újra elküldtük.</target>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>Invitation deleted.</source>
+        <target>A meghívó törölve.</target>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>Invitation to %organization% organization</source>
+        <target>Meghívás a(z) %organization% szervezetbe</target>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>Send</source>
+        <target>Elküldés</target>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>Message from organization %organization%</source>
+        <target>Üzenet a(z) %organization% szervezettől</target>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>The message has been sent.</source>
+        <target>Az üzenetet elküldtük.</target>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>Please select the roles to send the message below to.</source>
+        <target>Válassza ki, hogy melyik szerepköröknek szeretné elküldeni az alább megadott üzenetet!</target>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>%lname%, %email% - the manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has sent you a message as a member of the role %rname%, which is the following:</source>
+        <target>%lname, %email - a(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet menedzsere üzenetet küldött Önnek, mint a(z) %role% szerepkör tagjának, ami a következő:</target>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>Send message to VO members</source>
+        <target>Üzenet küldése a VO tagoknak</target>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>Send message</source>
+        <target>Üzenet küldése</target>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>Organization %organization% has deleted its subscription to %service%::%ep%</source>
+        <target>A(z) %organization% nevű szervezet törölte a feliratkozását a(z) %service%::%ep% jogosultságcsomagról</target>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>Entitlement package details</source>
+        <target>Jogosultságcsomag részletei</target>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>A manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has unsubscribed his/her organization from %service%::%ep%</source>
+        <target>A(z) &lt;strong&gt;%organization%&lt;/strong&gt; nevű szervezet leiratkozott a(z) %service%::%ep% jogosultságcsomagról</target>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>You can review the service subscriptions at the service page:</source>
+        <target>A szolgáltatás feliratkozásait megtekintheti a szolgáltatás oldalán:</target>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>Service page</source>
+        <target>Szolgáltatás</target>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>For further information please contact the organization managers.</source>
+        <target>További információért keresse a szervezet menedzsereit.</target>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>A manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has deleted the subscription to %service%::%ep%</source>
+        <target>A(z) &lt;strong&gt;%organization%&lt;/strong&gt; nevű szervezet leiratkozott a(z) %service%::%ep% jogosultságcsomagról</target>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>You can review the organization subscriptions at the organizations page:</source>
+        <target>A szervezet feliratkozásait megtekintheti a szervezet oldalán:</target>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>Organization page</source>
+        <target>Szervezet</target>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>Entitlements in role %organization%::%role% have been modified</source>
+        <target>A(z) %organization%::%role% szerepkör jogosultságai megváltoztak</target>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>A manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has changed the entitlements of role &lt;strong&gt;%role%&lt;/strong&gt;.</source>
+        <target>A(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet egy menedzsere megváltoztatta a(z) %role% szerepkör jogosultságait.</target>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>For further information please contact the service managers.</source>
+        <target>További információért keresse a szolgáltatás menedzsereit.</target>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>Your membership in %organization::%role% has been cancelled</source>
+        <target>A(z) %organization%::%role% szerepkörbeli tagságát törölték</target>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>Welcome to role %organization::%role%</source>
+        <target>Üdvözöljük a(z) %organization%::%role% szerepkörben</target>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>A manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has cancelled your membership of role &lt;strong&gt;%role%&lt;/strong&gt;.</source>
+        <target>A(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet egy menedzsere törölte a tagságát a(z) &lt;strong&gt;%role%&lt;/strong&gt; szerepkörből.</target>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>A manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has modified the members of role &lt;strong&gt;%role%&lt;/strong&gt;.</source>
+        <target>A(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet egy menedzsere megváltoztatta a(z) &lt;strong&gt;%role%&lt;/strong&gt; szerepkör tagjait.</target>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>A manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has added you to the role &lt;strong&gt;%role%&lt;/strong&gt;.</source>
+        <target>A(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet egy menedzsere hozzáadta Önt a(z) &lt;strong&gt;%role%&lt;/strong&gt; szerepkörhöz.</target>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>Organization %organization% would like to subscribe to %service%::%ep%</source>
+        <target>A(z) %organization% nevű szervezet fel szeretne iratkozni a(z) %service%::%ep% jogosultságcsomagra</target>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>Invalid token</source>
+        <target>Érvénytelen token</target>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>The service is already connected</source>
+        <target>A szolgáltatás már csatolva van</target>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>Organization %organization% has subscribed to %service%::%ep% using token</source>
+        <target>A(z) %organization% nevű szervezet feliratkozott a(z) %service%::%ep% jogosultságcsomagra</target>
+      </trans-unit>
+      <trans-unit id="178">
+        <source>Organization %organization% has subscribed to %service%::%ep%</source>
+        <target>A(z) %organization% nevű szervezet feliratkozott a(z) %service%::%ep% jogosultságcsomagra</target>
+      </trans-unit>
+      <trans-unit id="179">
+        <source>A manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has subscribed to the %service%::%ep% entitlement package</source>
+        <target>A(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet egy menedzsere feliratkozott a(z) %service%::%ep% jogosultságcsomagra</target>
+      </trans-unit>
+      <trans-unit id="180">
+        <source>%lname%, %email% - the manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; is waiting for your approval of the subscription of his/her organization to %service%::%ep% entitlement pack</source>
+        <target>%lname%, %email% - a(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet menedzsere szeretné, ha jóváhagyná szervezete feliratkozását a(z) %service%::%ep% jogosultságcsomagra.</target>
+      </trans-unit>
+      <trans-unit id="181">
+        <source>For further information please contact him/her personally.</source>
+        <target>További információért keresse személyesen őt.</target>
+      </trans-unit>
+      <trans-unit id="182">
+        <source>%lname%, %email% - the manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has subscribed his/her organization to %service%::%ep% entitlement pack using a token.</source>
+        <target>%lname%, %email% - a(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet menedzsere feliratkozott a(z) %service%::%ep% jogosultságcsomagra egy token segítségével.</target>
+      </trans-unit>
+      <trans-unit id="183">
+        <source>Invitation of $email% to %organization% organization</source>
+        <target>%email% meghívása a(z) %organization% szervezetbe</target>
+      </trans-unit>
+      <trans-unit id="184">
+        <source>%lname%, %email% - the manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has invited "%email%" to %organization%::%rname%</source>
+        <target>%lname%, %email% - a(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet menedzsere meghívta %email%-t a(z) %organization%::%rname% szerepkörbe.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
