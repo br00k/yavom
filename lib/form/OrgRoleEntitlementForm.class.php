@@ -23,8 +23,8 @@ class OrgRoleEntitlementForm extends BaseForm
         'renderer_options' => array(
           'label_associated' => $i18n->__('Associated entitlements'),
           'label_unassociated' => $i18n->__('Not associated entitlements'),
-          'associate' => '<img src="/vo-dev/sfFormExtraPlugin/images/previous.png" alt="associate" />',
-          'unassociate'=> '<img src="/vo-dev/sfFormExtraPlugin/images/next.png" alt="unassociate" />',
+          'associate' => '<img src="/sf/sf_admin/images/previous.png" alt="associate" />',
+          'unassociate'=> '<img src="/sf/sf_admin/images/next.png" alt="unassociate" />',
 	),
       )),
       'role_id'   => new sfWidgetFormInputHidden( array()),

@@ -22,8 +22,8 @@ class OrgPrincipalForm extends BaseForm
         'renderer_options' => array(
           'label_associated' => $i18n->__('Associated managers'),
           'label_unassociated' => $i18n->__('Non-associated managers'),
-          'unassociate' => '<img src="/vo-dev/sfFormExtraPlugin/images/next.png" alt="unassociate" />',
-          'associate'=> '<img src="/vo-dev/sfFormExtraPlugin/images/previous.png" alt="associate" />',
+          'unassociate' => '<img src="/sf/sf_admin/images/next.png" alt="unassociate" />',
+          'associate'=> '<img src="/sf/sf_admin/images/previous.png" alt="associate" />',
        ))),
       'organization_id'   => new sfWidgetFormInputHidden( array()),
     ));
