@@ -82,7 +82,6 @@ class showActions extends sfActions
       $mail->setBody($html, 'text/html');
       
       $this->getMailer()->send($mail);
-      
     }
     
     

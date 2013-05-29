@@ -71,7 +71,7 @@ class updateRolePrincipalActions extends sfActions
        $to[$tp->getEmail()] = $tp->getName();
      }
      
-     $mail = $this->getMailer()->compose(ProjectConfiguration::$mail_from, $to, $i18n->__(ProjectConfiguration::$mail_tag.'Your membership in %organization::%role% has been cancelled',array("%role%"=>$r->getName(), "%organization%"=>$r->getOrganization())));
+     $mail = $this->getMailer()->compose(ProjectConfiguration::$mail_from, $to, $i18n->__(ProjectConfiguration::$mail_tag.'Your membership in %organization%::%role% has been cancelled',array("%role%"=>$r->getName(), "%organization%"=>$r->getOrganization())));
      $html  = $this->getPartial('updateRolePrincipal/cancelledHtml', array("o"=>$r->getOrganization(), "r"=>$r));
      $mail->setBody($html, 'text/html');
 
@@ -86,7 +86,7 @@ class updateRolePrincipalActions extends sfActions
        $to[$tp->getEmail()] = $tp->getName();
      }
      
-     $mail = $this->getMailer()->compose(ProjectConfiguration::$mail_from, $to, $i18n->__(ProjectConfiguration::$mail_tag.'Welcome to role %organization::%role%',array("%role%"=>$r->getName(), "%organization%"=>$r->getOrganization())));
+     $mail = $this->getMailer()->compose(ProjectConfiguration::$mail_from, $to, $i18n->__(ProjectConfiguration::$mail_tag.'Welcome to role %organization%::%role%',array("%role%"=>$r->getName(), "%organization%"=>$r->getOrganization())));
      $html  = $this->getPartial('updateRolePrincipal/addedHtml', array("o"=>$r->getOrganization(), "r"=>$r));
      $mail->setBody($html, 'text/html');
 
@@ -96,7 +96,7 @@ class updateRolePrincipalActions extends sfActions
      * Mail to organization maganers
      */
      $to = $r->getOrganization()->getManagersEmailArray();
-     $mail = $this->getMailer()->compose(ProjectConfiguration::$mail_from, $to, $i18n->__(ProjectConfiguration::$mail_tag.'Members of the %organization::%role% role have been modified',array("%role%"=>$r->getName(), "%organization%"=>$r->getOrganization())));
+     $mail = $this->getMailer()->compose(ProjectConfiguration::$mail_from, $to, $i18n->__(ProjectConfiguration::$mail_tag.'Members of the %organization%::%role% role have been modified',array("%role%"=>$r->getName(), "%organization%"=>$r->getOrganization())));
      $html  = $this->getPartial('updateRolePrincipal/managersHtml', array("o"=>$r->getOrganization(), "r"=>$r));
      $mail->setBody($html, 'text/html');
 

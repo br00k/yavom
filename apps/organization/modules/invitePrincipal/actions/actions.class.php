@@ -114,7 +114,7 @@ class invitePrincipalActions extends sfActions
       $params= array("o"=>$o, "p"=>$p,"r"=>$r, "email"=>$email);
       $email_params=array(
         "to" => $to,
-        "subject" => $i18n->__('Invitation of $email% to %organization% organization',array("%email%"=>$email, "%organization%"=>$o)),
+        "subject" => $i18n->__('Invitation of %email% to %organization% organization',array("%email%"=>$email, "%organization%"=>$o)),
         "bodyhtml" => $this->getPartial('invitePrincipal/inviteNoticeHtml',$params),
       );
   
@@ -190,7 +190,7 @@ class invitePrincipalActions extends sfActions
     }
     $email_params=array(
       "to" => $to,
-      "subject" => $i18n->__('%lname% has accepted the invitation to %organization%', array("%lname"=>$p->getUser()->getLastName(),"%organization%"=>$o)),
+      "subject" => $i18n->__('%lname% has accepted the invitation to %organization%', array("%lname%"=>$p->getUser()->getLastName(),"%organization%"=>$o)),
       "bodyhtml" => $this->getPartial('invitePrincipal/acceptHtml',$params),
     );
     $this->sendEmail($email_params);
@@ -221,7 +221,7 @@ class invitePrincipalActions extends sfActions
     $params= array("i"=>$i, "o"=>$o, "r"=>$i->getRole(), "p"=>$i->getInviter(),"reinvite"=>TRUE);
     $email_params=array(
       "to" => $i->getEmail(),
-      "subject" => $i18n->__('Reminder about invitation to %organization% organization.',array("%organization"=>$o)),
+      "subject" => $i18n->__('Reminder about invitation to %organization% organization.',array("%organization%"=>$o)),
       "bodyhtml" => $this->getPartial('invitePrincipal/inviteHtml',$params),
     );
 

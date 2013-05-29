@@ -323,8 +323,8 @@ Ha még nincs virtuális szervezete, itt létrehozhat egyet:
         <target>Tisztelettel:</target>
       </trans-unit>
       <trans-unit id="76">
-        <source>%lname%, %email% has accepted the invitation to &lt;strong&gt;%organization%::%role%&lt;/strong&gt; role.</source>
-        <target>%lname%, %email% elfogadta a meghívást a(z) &lt;strong&gt;%organization%::%role%&lt;/strong&gt; szerepkörbe.</target>
+        <source>%lname%, %email% has accepted the invitation to &lt;strong&gt;%organization%::%rname%&lt;/strong&gt; role.</source>
+        <target>%lname%, %email% elfogadta a meghívást a(z) &lt;strong&gt;%organization%::%rname%&lt;/strong&gt; szerepkörbe.</target>
       </trans-unit>
       <trans-unit id="77">
         <source>Organization details</source>
@@ -636,7 +636,7 @@ Ha még nincs virtuális szervezete, itt létrehozhat egyet:
       </trans-unit>
       <trans-unit id="154">
         <source>%lname%, %email% - the manager of organization &lt;strong&gt;%organization%&lt;/strong&gt; has sent you a message as a member of the role %rname%, which is the following:</source>
-        <target>%lname, %email - a(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet menedzsere üzenetet küldött Önnek, mint a(z) %role% szerepkör tagjának, ami a következő:</target>
+        <target>%lname%, %email% - a(z) &lt;strong&gt;%organization%&lt;/strong&gt; szervezet menedzsere üzenetet küldött Önnek, mint a(z) %rname% szerepkör tagjának, ami a következő:</target>
       </trans-unit>
       <trans-unit id="155">
         <source>Send message to VO members</source>
