@@ -12,9 +12,9 @@ You have to have a SAML federation with working `IdPs` SPs, and metadata managem
 
 Get the YAVOM source and copy to your webserver directory.
 
-Create cache directory and enable the write access to the webserver user.
+Enable cache directory write access to the webserver user.
 {{{
-mkdir cache; chown www-data cache
+chown www-data cache
 }}}
 
 Get simpleSAMLphp and install to `lib/vendor/simplesamlphp` directory.
