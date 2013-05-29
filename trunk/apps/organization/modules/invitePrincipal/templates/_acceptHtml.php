@@ -3,7 +3,7 @@
 <?php echo __('Our system is a virtual organizations manager software, this e-mail is sent by our robot.')?>
 <br>
 
-<?php echo __('%lname%, %email% has accepted the invitation to <strong>%organization%::%role%</strong> role.', array("%lname%"=>$p->getUser()->getLastName(), "%email%"=>$p->getUser()->getEmailAddress(), "%organization%"=>$o, "%rname%"=>$r->getName())); ?>
+<?php echo __('%lname%, %email% has accepted the invitation to <strong>%organization%::%rname%</strong> role.', array("%lname%"=>$p->getUser()->getLastName(), "%email%"=>$p->getUser()->getEmailAddress(), "%organization%"=>$o, "%rname%"=>$r->getName())); ?>
 <br>  
 <?php echo  link_to(__("Organization details"),url_for("show/index?id=".$o->getId(),true)) ?>
 <br>
