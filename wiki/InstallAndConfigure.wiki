@@ -35,10 +35,10 @@ Install the *[https://code.google.com/p/aa4ssp aa]* module to simpleSAMLphp inst
 
 Create the data store and the user access to it, copy _config/databases.yml.source_ to _config/databases.yml_ and edit according the data store.
 
-Create the YAVOM tables into database.
+Create the YAVOM tables into database, get credentials from previous step.
 
 {{{
-php  symfony doctrine:build --db
+mysql -u yavom -pXXXX yavom < data/sql/schema.sql
 }}}
 
 Configure apache.
