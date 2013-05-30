@@ -65,7 +65,7 @@ Configure apache.
 }}}
 
 
-=== Install and configure simpleSAMLphp '''attributeaggregator''' module ===
+=== Install and configure simpleSAMLphp '''attributeaggregator''' module for Service Provider to use YAVOM ===
 
 Getting YAVOM's `AttributeAuthority` metadata.
 
@@ -75,7 +75,7 @@ Register the SP to YAVOM, share the entitlements to a VO.
 
 Testing the given entitlement after a SAML login.
 
-=== Install and configure shibboleth SP to use YAVOM ===
+=== Install and configure shibboleth Service Provider to use YAVOM ===
 
 Getting YAVOM's `AttributeAuthority` metadata.
 
