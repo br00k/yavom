@@ -28,7 +28,14 @@ mv simplesamlphp-1.10.0 simplesamlphp
 cd ../..
 }}}
 
-Configure it as `ServiceProvider` into your federation. Be sure the authentication source id is _default-sp_.
+Configure it as `ServiceProvider` into your federation.
+
+The requiered attributes are: eduPersonPrincipalName, mail.
+
+The suggested attribute is: displayName.
+
+Be sure the authentication source id is _default-sp_.
+
 
 Install the *[https://code.google.com/p/aa4ssp aa]* module to simpleSAMLphp instance and configure it. Register YAVOM's `AttributeAuthority` metadata to the federation.
 
